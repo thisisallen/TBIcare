@@ -1,0 +1,111 @@
+type WorkoutType {
+  category: String
+  id: String
+  name: String
+}
+
+type Schedule {
+  createdAt: String
+  endDate: String
+  skip: Int
+  type: String
+  frequency: [Int]
+}
+
+type Vo2Max {
+  createdAt: String
+  recordedAt: String
+  value: Float
+}
+
+type HeartRateVariability {
+  createdAt: String
+  recordedAt: String
+  value: Float
+}
+
+type Items {
+  email: String
+  phone: String
+  sms: String
+}
+
+type CareTeamContact {
+  name: String
+  relation: String
+  type: String
+  items: Items
+}
+
+type Patient {
+  categories: String
+  color: String
+  createdAt: String
+  detailedInfo: String
+  email: String
+  emailVerified: Boolean
+  imageURL: String
+  monogram: String
+  name: String
+  password: String
+  userName: String
+  vo2Max: Vo2Max
+  heartRateVariability: HeartRateVariability
+  careTeamContact: CareTeamContact
+}
+
+type HeartRate {
+  createdAt: String
+  heartRateValue: [Float]
+  recordedAt: String
+}
+
+type Attempt {
+  activeEnergyBurned: Int
+  borgScale: String
+  createdAt: String
+  distance: Int
+  heartRateCount: Int
+  heartRateReport: String
+  steps: Int
+  time: Int
+  workoutAssessment: String
+  heartRate: HeartRate
+}
+
+type Event {
+  createdAt: String
+  numberOfDaysSinceStart: Int
+  occurrenceIndexofDay: Int
+  state: Int
+  attempt: [Attempt]
+}
+
+type TBIcare @model {
+  id: ID!
+  color: String
+  createdAt: String
+  groupId: String
+  imageURL: String
+  instructions: String
+  locationType: String
+  optional: Boolean
+  resultResetable: Boolean
+  startDate: String
+  subtype: String
+  summary: String
+  targetActiveBurnedEnergy: Int
+  targetDistance: Int
+  targetHeartRate: Int
+  targetSteps: Int
+  targetTime: Int
+  text: String
+  title: String
+  type: String
+  updatedAt: String
+  workoutType: WorkoutType
+  schedule: Schedule
+  patient: Patient
+  event: Event
+}
+

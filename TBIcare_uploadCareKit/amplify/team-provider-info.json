@@ -1,0 +1,20 @@
+{
+    "uta": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tbi-care-uta-205817-authRole",
+            "UnauthRoleArn": "arn:aws:iam::634016393356:role/amplify-tbi-care-uta-205817-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::634016393356:role/amplify-tbi-care-uta-205817-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-tbi-care-uta-205817-deployment",
+            "UnauthRoleName": "amplify-tbi-care-uta-205817-unauthRole",
+            "StackName": "amplify-tbi-care-uta-205817",
+            "StackId": "arn:aws:cloudformation:us-east-1:634016393356:stack/amplify-tbi-care-uta-205817/801824a0-601f-11ea-b4d4-12b6a099270b",
+            "AmplifyAppId": "d1swei8g7axcds"
+        },
+        "categories": {
+            "auth": {
+                "tbicaree9360b92": {}
+            }
+        }
+    }
+}

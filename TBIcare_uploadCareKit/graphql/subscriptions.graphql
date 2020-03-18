@@ -1,0 +1,277 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTbIcare {
+  onCreateTBIcare {
+    id
+    color
+    createdAt
+    groupId
+    imageURL
+    instructions
+    locationType
+    optional
+    resultResetable
+    startDate
+    subtype
+    summary
+    targetActiveBurnedEnergy
+    targetDistance
+    targetHeartRate
+    targetSteps
+    targetTime
+    text
+    title
+    type
+    updatedAt
+    workoutType {
+      category
+      id
+      name
+    }
+    schedule {
+      createdAt
+      endDate
+      skip
+      type
+      frequency
+    }
+    patient {
+      categories
+      color
+      createdAt
+      detailedInfo
+      email
+      emailVerified
+      imageURL
+      monogram
+      name
+      password
+      userName
+      vo2Max {
+        createdAt
+        recordedAt
+        value
+      }
+      heartRateVariability {
+        createdAt
+        recordedAt
+        value
+      }
+      careTeamContact {
+        name
+        relation
+        type
+        items {
+          email
+          phone
+          sms
+        }
+      }
+    }
+    event {
+      createdAt
+      numberOfDaysSinceStart
+      occurrenceIndexofDay
+      state
+      attempt {
+        activeEnergyBurned
+        borgScale
+        createdAt
+        distance
+        heartRateCount
+        heartRateReport
+        steps
+        time
+        workoutAssessment
+        heartRate {
+          createdAt
+          heartRateValue
+          recordedAt
+        }
+      }
+    }
+  }
+}
+subscription OnUpdateTbIcare {
+  onUpdateTBIcare {
+    id
+    color
+    createdAt
+    groupId
+    imageURL
+    instructions
+    locationType
+    optional
+    resultResetable
+    startDate
+    subtype
+    summary
+    targetActiveBurnedEnergy
+    targetDistance
+    targetHeartRate
+    targetSteps
+    targetTime
+    text
+    title
+    type
+    updatedAt
+    workoutType {
+      category
+      id
+      name
+    }
+    schedule {
+      createdAt
+      endDate
+      skip
+      type
+      frequency
+    }
+    patient {
+      categories
+      color
+      createdAt
+      detailedInfo
+      email
+      emailVerified
+      imageURL
+      monogram
+      name
+      password
+      userName
+      vo2Max {
+        createdAt
+        recordedAt
+        value
+      }
+      heartRateVariability {
+        createdAt
+        recordedAt
+        value
+      }
+      careTeamContact {
+        name
+        relation
+        type
+        items {
+          email
+          phone
+          sms
+        }
+      }
+    }
+    event {
+      createdAt
+      numberOfDaysSinceStart
+      occurrenceIndexofDay
+      state
+      attempt {
+        activeEnergyBurned
+        borgScale
+        createdAt
+        distance
+        heartRateCount
+        heartRateReport
+        steps
+        time
+        workoutAssessment
+        heartRate {
+          createdAt
+          heartRateValue
+          recordedAt
+        }
+      }
+    }
+  }
+}
+subscription OnDeleteTbIcare {
+  onDeleteTBIcare {
+    id
+    color
+    createdAt
+    groupId
+    imageURL
+    instructions
+    locationType
+    optional
+    resultResetable
+    startDate
+    subtype
+    summary
+    targetActiveBurnedEnergy
+    targetDistance
+    targetHeartRate
+    targetSteps
+    targetTime
+    text
+    title
+    type
+    updatedAt
+    workoutType {
+      category
+      id
+      name
+    }
+    schedule {
+      createdAt
+      endDate
+      skip
+      type
+      frequency
+    }
+    patient {
+      categories
+      color
+      createdAt
+      detailedInfo
+      email
+      emailVerified
+      imageURL
+      monogram
+      name
+      password
+      userName
+      vo2Max {
+        createdAt
+        recordedAt
+        value
+      }
+      heartRateVariability {
+        createdAt
+        recordedAt
+        value
+      }
+      careTeamContact {
+        name
+        relation
+        type
+        items {
+          email
+          phone
+          sms
+        }
+      }
+    }
+    event {
+      createdAt
+      numberOfDaysSinceStart
+      occurrenceIndexofDay
+      state
+      attempt {
+        activeEnergyBurned
+        borgScale
+        createdAt
+        distance
+        heartRateCount
+        heartRateReport
+        steps
+        time
+        workoutAssessment
+        heartRate {
+          createdAt
+          heartRateValue
+          recordedAt
+        }
+      }
+    }
+  }
+}

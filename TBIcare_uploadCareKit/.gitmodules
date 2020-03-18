@@ -1,0 +1,4 @@
+[submodule "CareKit"]
+	path = CareKit
+	url = https://github.com/carekit-apple/CareKit.git
+	branch = stable

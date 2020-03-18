@@ -1,0 +1,286 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateTbIcare(
+  $input: CreateTBIcareInput!
+  $condition: ModelTBIcareConditionInput
+) {
+  createTBIcare(input: $input, condition: $condition) {
+    id
+    color
+    createdAt
+    groupId
+    imageURL
+    instructions
+    locationType
+    optional
+    resultResetable
+    startDate
+    subtype
+    summary
+    targetActiveBurnedEnergy
+    targetDistance
+    targetHeartRate
+    targetSteps
+    targetTime
+    text
+    title
+    type
+    updatedAt
+    workoutType {
+      category
+      id
+      name
+    }
+    schedule {
+      createdAt
+      endDate
+      skip
+      type
+      frequency
+    }
+    patient {
+      categories
+      color
+      createdAt
+      detailedInfo
+      email
+      emailVerified
+      imageURL
+      monogram
+      name
+      password
+      userName
+      vo2Max {
+        createdAt
+        recordedAt
+        value
+      }
+      heartRateVariability {
+        createdAt
+        recordedAt
+        value
+      }
+      careTeamContact {
+        name
+        relation
+        type
+        items {
+          email
+          phone
+          sms
+        }
+      }
+    }
+    event {
+      createdAt
+      numberOfDaysSinceStart
+      occurrenceIndexofDay
+      state
+      attempt {
+        activeEnergyBurned
+        borgScale
+        createdAt
+        distance
+        heartRateCount
+        heartRateReport
+        steps
+        time
+        workoutAssessment
+        heartRate {
+          createdAt
+          heartRateValue
+          recordedAt
+        }
+      }
+    }
+  }
+}
+mutation UpdateTbIcare(
+  $input: UpdateTBIcareInput!
+  $condition: ModelTBIcareConditionInput
+) {
+  updateTBIcare(input: $input, condition: $condition) {
+    id
+    color
+    createdAt
+    groupId
+    imageURL
+    instructions
+    locationType
+    optional
+    resultResetable
+    startDate
+    subtype
+    summary
+    targetActiveBurnedEnergy
+    targetDistance
+    targetHeartRate
+    targetSteps
+    targetTime
+    text
+    title
+    type
+    updatedAt
+    workoutType {
+      category
+      id
+      name
+    }
+    schedule {
+      createdAt
+      endDate
+      skip
+      type
+      frequency
+    }
+    patient {
+      categories
+      color
+      createdAt
+      detailedInfo
+      email
+      emailVerified
+      imageURL
+      monogram
+      name
+      password
+      userName
+      vo2Max {
+        createdAt
+        recordedAt
+        value
+      }
+      heartRateVariability {
+        createdAt
+        recordedAt
+        value
+      }
+      careTeamContact {
+        name
+        relation
+        type
+        items {
+          email
+          phone
+          sms
+        }
+      }
+    }
+    event {
+      createdAt
+      numberOfDaysSinceStart
+      occurrenceIndexofDay
+      state
+      attempt {
+        activeEnergyBurned
+        borgScale
+        createdAt
+        distance
+        heartRateCount
+        heartRateReport
+        steps
+        time
+        workoutAssessment
+        heartRate {
+          createdAt
+          heartRateValue
+          recordedAt
+        }
+      }
+    }
+  }
+}
+mutation DeleteTbIcare(
+  $input: DeleteTBIcareInput!
+  $condition: ModelTBIcareConditionInput
+) {
+  deleteTBIcare(input: $input, condition: $condition) {
+    id
+    color
+    createdAt
+    groupId
+    imageURL
+    instructions
+    locationType
+    optional
+    resultResetable
+    startDate
+    subtype
+    summary
+    targetActiveBurnedEnergy
+    targetDistance
+    targetHeartRate
+    targetSteps
+    targetTime
+    text
+    title
+    type
+    updatedAt
+    workoutType {
+      category
+      id
+      name
+    }
+    schedule {
+      createdAt
+      endDate
+      skip
+      type
+      frequency
+    }
+    patient {
+      categories
+      color
+      createdAt
+      detailedInfo
+      email
+      emailVerified
+      imageURL
+      monogram
+      name
+      password
+      userName
+      vo2Max {
+        createdAt
+        recordedAt
+        value
+      }
+      heartRateVariability {
+        createdAt
+        recordedAt
+        value
+      }
+      careTeamContact {
+        name
+        relation
+        type
+        items {
+          email
+          phone
+          sms
+        }
+      }
+    }
+    event {
+      createdAt
+      numberOfDaysSinceStart
+      occurrenceIndexofDay
+      state
+      attempt {
+        activeEnergyBurned
+        borgScale
+        createdAt
+        distance
+        heartRateCount
+        heartRateReport
+        steps
+        time
+        workoutAssessment
+        heartRate {
+          createdAt
+          heartRateValue
+          recordedAt
+        }
+      }
+    }
+  }
+}

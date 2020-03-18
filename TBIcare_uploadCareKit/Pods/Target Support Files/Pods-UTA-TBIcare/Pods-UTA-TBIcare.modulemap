@@ -1,0 +1,6 @@
+framework module Pods_UTA_TBIcare {
+  umbrella header "Pods-UTA-TBIcare-umbrella.h"
+
+  export *
+  module * { export * }
+}

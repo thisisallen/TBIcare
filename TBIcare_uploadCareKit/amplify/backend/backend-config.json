@@ -1,0 +1,28 @@
+{
+	"api": {
+		"TBIcare": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "API_KEY",
+						"apiKeyConfig": {
+							"description": "TBIcare",
+							"apiKeyExpirationDays": "365"
+						}
+					}
+				}
+			}
+		}
+	},
+	"auth": {
+		"tbicaree9360b92": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

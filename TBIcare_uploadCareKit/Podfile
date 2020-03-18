@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'UTA-TBIcare' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for UTA-TBIcare
+
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'IQKeyboardManagerSwift'
+  pod 'R.swift'
+  pod 'Kingfisher'
+  pod 'SVProgressHUD'
+  pod 'MKRingProgressView'
+  pod 'Firebase'
+  pod 'Fabric', '~> 1.10.2'
+  pod 'Crashlytics', '~> 3.14.0'
+  
+  # Auth dependencies
+  pod 'AWSMobileClient', '~> 2.10.0'
+  pod 'AWSAuthUI', '~> 2.10.0'
+  pod 'AWSUserPoolsSignIn', '~> 2.10.0'
+  
+  pod 'AWSCore', '~> 2.10.0'
+
+  # API dependency
+  
+  pod 'AWSAppSync', '~> 2.14.0'
+
+end
